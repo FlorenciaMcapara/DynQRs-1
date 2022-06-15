@@ -1,24 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <title></title>
       <style type="text/css">
+        body{
+            display: flex;        
+            place-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: #222;
+        }
         .loader {
             border: 16px solid #f3f3f3;
             /* Light grey */
-            border-top: 16px solid #048023;
+            border-top: 16px solid #05A218;
+            border-bottom: 16px solid #FBF30E;
             /* Dark Green */
             border-radius: 50%;
-            width: 120px;
-            height: 120px;
+            width: 300px;
+            height: 300px;
             animation: spinloader 2s linear infinite;
+           
+           
         }
   
         .loader img {
-            height: 120px;
-            width: 120px;
+            height: 300px;
+            width: 300px;
             animation: spinlogo 2s linear infinite;
+           
+
         }
   
         @keyframes spinloader {
